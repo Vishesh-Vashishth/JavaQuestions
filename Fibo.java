@@ -1,0 +1,13 @@
+public class Fibo {
+    public static void main(String[] args) {
+        System.out.println(fib(4));
+    }
+    static int fib(int n){
+        //base condition;
+        if(n<2){
+            return 1;
+        }
+
+        return fib(n-1)+fib(n-2);
+    }
+}
